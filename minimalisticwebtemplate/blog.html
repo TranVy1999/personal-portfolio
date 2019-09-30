@@ -1,0 +1,150 @@
+<!DOCTYPE html >
+<!--  Website template by freewebsitetemplates.com  -->
+<html>
+
+<head>
+<title>Minimalistic Web Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="iso-8859-1" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="Lab/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+<!--[if IE 6]>
+		<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+<!--[if IE 7]>
+        <link href="css/ie7.css" rel="stylesheet" type="text/css" />  
+	<![endif]-->
+</head>
+
+<body>
+
+	<div id="background">
+		<div id="page">
+
+			<div class="header">
+				<div class="footer">
+					<div class="body">
+						<div id="sidebar">
+							<a href="index.html"><img id="logo" src="images/logo.gif"
+								with="154" height="74" alt="" title="" /></a>
+
+
+							<ul class="navigation">
+								<li><a href="index.html">HOME</a></li>
+								<li class="active"><a href="blog.html">PROJECT</a></li>
+								<li><a href="about.html">ABOUT</a></li>
+								<!-- <li class="last"><a href="contact.html">CONTACT</a></li> -->
+							</ul>
+
+							<!-- <div class="connect">
+								<a href="http://facebook.com/freewebsitetemplates"
+									class="facebook">&nbsp;</a> <a
+									href="http://twitter.com/fwtemplates" class="twitter">&nbsp;</a>
+								<a href="http://www.youtube.com/fwtemplates" class="vimeo">&nbsp;</a>
+							</div> -->
+
+							<div class="footenote">
+								<span>&copy; Copyright &copy; 2011.</span> <span><a
+									href="index.html">Company name</a> all rights reserved</span>
+							</div>
+
+						</div>
+						<div id="content">
+							<div class="content">
+								<div class="lab">
+									<!-- <ul class="article">
+										<li><a href="Lab/Lab1.html">Lab1 </a></li>
+										<li><a href="Lab/Lab2.html">Lab2</a></li>
+										<li><a href="Lab/Lab3.html">Lab3</a></li>
+										<li><a href="Lab/Lab4.html">Lab4</a></li>
+									</ul> -->
+
+									<div class="tab">
+										<button class="tablinks active">Lab1</button>
+										<button class="tablinks">Lab2</button>
+										<button class="tablinks">Lab3</button>
+									</div>
+
+									<div id="Lab1" onclick="myfunction()" class="tabcontent">
+										<div class="tab hid" style="display:none">
+											<button class="tablinks1">Requirement</button>
+											<button class="tablinks1">Design</button>
+											<button class="tablinks1">Implement</button>
+										</div>
+										<div id="Requirement" class="tabcontent1">
+											<h3>HTML</h3>
+										</div>
+
+										<div id="Design" class="tabcontent1">
+											<h3>HTML</h3>
+										</div>
+
+										<div id="Implement" class="tabcontent1">
+											<h3>CSS</h3>
+										</div>
+										<script type="text/javascript">
+											Function myfunction(){
+											 document.getElementsByClassName("hid").style.display="block";
+												
+											}
+										</script>
+									</div>
+									<div id="Lab2" class="tabcontent">
+										<h3>HTML</h3>
+										<p>HTML là chữ viết tắt của cụm từ HyperText Markup
+											Language((Xem thêm tại http://vi.wikipedia.org/wiki/HTML))
+											(dịch là Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo
+											một trang web, trên một website có thể sẽ chứa nhiều trang và
+											mỗi trang được quy ra là một tài liệu HTML.</p>
+									</div>
+									<div id="Lab3" class="tabcontent">
+										<h3>CSS</h3>
+										<p>CSS là chữ viết tắt của Cascading Style Sheets, nó là
+											một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử
+											được tạo ra bởi các ngôn ngữ đánh dấu (ví dụ như HTML).</p>
+
+									</div>
+									<script type="text/javascript">
+										var buttons = document
+												.getElementsByClassName('tablinks');
+										var contents = document
+												.getElementsByClassName('tabcontent');
+										function showContent(id) {
+											for (var i = 0; i < contents.length; i++) {
+												contents[i].style.display = 'none';
+											}
+											var content = document
+													.getElementById(id);
+											content.style.display = 'block';
+										}
+										for (var i = 0; i < buttons.length; i++) {
+											buttons[i]
+													.addEventListener(
+															"click",
+															function() {
+																var id = this.textContent;
+																for (var i = 0; i < buttons.length; i++) {
+																	buttons[i].classList
+																			.remove("active");
+																}
+																this.className += " active";
+																showContent(id);
+															});
+										}
+										showContent('PHP');
+									</script>
+								</div>
+							</div>
+
+							<!--  <hr width="100%" />-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="shadow"></div>
+	</div>
+</body>
+</html>
