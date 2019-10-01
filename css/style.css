@@ -164,24 +164,185 @@ body {
 
 #page .header .footer .body #content .content {
 	width: 726px;
-	height: 3005px;
+	height: 6005px;
 	background-image: url('../images/bg-inner-page.jpg');
 	background-repeat: repeat-y;
 	float: left;
 	padding-top: 20px;
 	overflow: hidden;
 }
-
-#page .header .footer .body #content .content ul li {
-	list-style: none;
+/* 
+#page .header .footer .body #content .content .tabcontent .create {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
 }
 
-#page .header .footer .body #content .content .lab ul li a {
-	list-style: none;
-	font-size: 30px;
-	color: white;
+#page .header .footer .body #content .content .tabcontent .create {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
 }
 
+#page .header .footer .body #content .content .tabcontent .create h6 {
+	background: #B3B3B3;
+	border-radius: 20px;
+	position: absolute;
+	width: 133px;
+	height: 16px;
+	left: 94px;
+	top: 47px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+
+
+
+
+#page .header .footer .body #content .content .tabcontent .create .button
+	{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 117px;
+	top: 312px;
+	background: #C4C4C4;
+	border-radius: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	identical to box height
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	border-radius: 20px;
+}
+
+#page .header .footer .body #content .content .tabcontent .repair {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
+}
+
+#page .header .footer .body #content .content .tabcontent .repair {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
+}
+
+#page .header .footer .body #content .content .tabcontent .repair h6 {
+	background: #B3B3B3;
+	border-radius: 20px;
+	position: absolute;
+	width: 133px;
+	height: 16px;
+	left: 94px;
+	top: 47px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+
+#page .header .footer .body #content .content .tabcontent .repair .button
+	{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 117px;
+	top: 312px;
+	background: #C4C4C4;
+	border-radius: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	identical to box height
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	border-radius: 20px;
+}
+
+
+
+#page .header .footer .body #content .content .tabcontent .delete {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
+}
+
+#page .header .footer .body #content .content .tabcontent .delete {
+	position: relative;
+	width: 334px;
+	height: 420px;
+	background: #FFFFFF;
+}
+
+#page .header .footer .body #content .content .tabcontent .delete h6 {
+	background: #B3B3B3;
+	border-radius: 20px;
+	position: absolute;
+	width: 133px;
+	height: 16px;
+	left: 94px;
+	top: 47px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+
+#page .header .footer .body #content .content .tabcontent .delete .button
+	{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 117px;
+	top: 312px;
+	background: #C4C4C4;
+	border-radius: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	identical to box height
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	border-radius: 20px;
+}
+ */
+#page .header .footer .body #content .content .tabcontent .repair .tablesreach
+	{
+	
+}
 /** Start of Lab Style **/
 #page .header .footer .body #content .content .lab {
 	color: white;
@@ -227,133 +388,6 @@ body {
 }
 
 /** end of Tab style **/
-
-/*	#page .header .footer .body #content .content ul li span{
-		    display:block;
-			font-style:Italic;
-		}
-		
-		#page .header .footer .body #content .content ul li  a{
-		     text-decoration:none;
-		}
-		
-		#page .header .footer .body #content .content ul li  a:hover{
-		     color:#cccccc;
-		}
-		
-		#page .header .footer .body #content .content ul li  a span{
-		    display:block;
-			color:#ffffff;
-			margin-top:20px;
-			font-style:Italic;
-			
-		}
-		
-		#page .header .footer .body #content .content ul li h2 a{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#ffffff;
-		   text-decoration:none;
-		   font-weight:bold;
-		}
-		#page .header .footer .body #content .content ul li p{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#ffffff;
-		}
-		#page .header .footer .body #content .content ul li p a{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#ffffff;
-		   text-decoration:underline;
-		}
-		#page .header .footer .body #content .content ul li p a:hover{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#cccccc;
-		} 
-		
-		* Style Blog page*
-		  #page .header .footer .body #content .content ul.article li{
-		    list-style-type:none; 
-			padding-right:40px;
-			display:block;
-			margin-bottom:30px;
-			overflow:hidden;
-		}
-		
-		
-		  #page .header .footer .body #content .content ul.article li img{
-		    float:left;
-			margin: 0 20px 0 0;
-		}
-		
-		#page .header .footer .body #content .content ul.article li h2{
-		  margin:0;
-		}
-		
-		#page .header .footer .body #content .content ul.article li h2 a{
-		   font-family:Helvetica;
-		   font-size:18px;
-		   font-style:Italic;
-		   color:#ffffff;
-		   text-decoration:none;
-		   font-weight:bold;
-		}
-		
-		#page .header .footer .body #content .content ul.article li h2 a:hover{
-		   font-family:Helvetica;
-		   font-size:18px;
-		   font-style:Italic;
-		   color:#cccccc;
-		   text-decoration:none;
-		   font-weight:bold;
-		}
-		
-			#page .header .footer .body #content .content ul.article li  a{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   font-style:Italic;
-		   color:#ffffff;
-		   text-decoration:none;
-		   margin-top:20px;
-		   
-		}
-		
-		
-		#page .header .footer .body #content .content ul.article li a:hover{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#cccccc;
-		}
-		
-		#page .header .footer .body #content .content ul.article li p{
-		   margin-top:0;
-		}
-		
-		#page .header .footer .body #content .content ul.article li p{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#ffffff;
-		   line-height:20px;
-		}
-		#page .header .footer .body #content .content ul.article li p a{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#ffffff;
-		    text-decoration:underline;
-		}
-		#page .header .footer .body #content .content ul.article li p a:hover{
-		   font-family:Helvetica;
-		   font-size:14px;
-		   color:#cccccc;
-		} */
-
-/** End Style Blog Page**/
-
-/**----------------- Start Lab1 Style  --------------------**/
-
-/**----------------End Lab1 Style   ----------------------**/
 
 /**----------------- Start Freatured Style  --------------------**/
 #page .header .footer .body #content .featured {

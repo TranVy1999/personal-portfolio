@@ -67,58 +67,170 @@
 									</div>
 
 									<div id="Lab1" class="tabcontent">
-										<h3>Requirement</h3>
 										<ul class="article">
 											<li>
+												<h3>Requirement</h3>
 												<h5>Yêu Cầu:</h5>
 												<p>
-													Chọn1 đối tượng bất kỳ trong thế giới thực, vídụ như <b>sinh
+													Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như <b>sinh
 														viên, môn học, giảng viên</b>,… để thiết kế trên phần mềm một
 													chức năng trên web để<b> thêm, sửa, xóa ,tìm kiếm</b> cho
 													đối tượng đó.
 												</p>
 											</li>
-											<li>
-												<p>Upload tất cả lên Azure/github trong menu Lab1 theo
-													thứ tự:</p>
-												<ol>
-													<li><p>
-															Tab <b>Yêu cầu</b>: copy lại nội dung của phần 1 vào đây
-															(trình bày cho đẹp)
-														</p></li>
-													<li><p>
-															Tab <b>Thiết kế</b>: để link tới các file sau đây:
-														<ol>
-															<li>Thiết kế trên giấy (chụp lại ảnh)</li>
-															<li>Thiết kế trên phần mềm thiết kế</li>
-														</ol></li>
-													<li><p>
-															Tab <b>Hiện thực</b>: chuyển tất cả thiết kế ở trên ở
-															trên sang html
-														</p></li>
-												</ol>
-											</li>
+
 											<li>
 												<h3 class="design">Design</h3>
 												<h5>
 													1. Design with paper:<br>
-												</h5>
+												</h5> <img alt="" src="images/thietke.jpg" width="600px"> <a
+												class="download" href="images/thietke.jpg"
+												download="thietke"> <br> Download <br>
+											</a> <img alt="" src="images/sreach1.jpg" width="600px"> <a
+												class="download" href="images/sreach1.jpg" download="create">
+													<br> Download <br>
+											</a>
 												<h5>
 													<br> 2. Design with Figma:<br>
-												</h5> <img alt="" src="images/Capture.PNG" width="600px">
-												&nbsp;&nbsp;&nbsp;&nbsp; <a class="download"
-												href="images/Capture.PNG" download="Capture"> <br>
-													Download <br>
-											</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt=""
-												src="images/Project.PNG" width="600px"> <br> <a
-												class="download" href="images/Project.PNG"
-												download="Project.png">Download</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-												<img alt="" src="images/About.PNG" width="600px"> <a
-												href="images/About.PNG" download="About.png"> Download<br></a>
+												</h5> <img alt="" src="images/create.PNG" width="600px"> <a
+												class="download" href="images/create.PNG" download="create">
+													<br> Download <br>
+											</a> <img alt="" src="images/repair.PNG" width="600px"> <br>
+												<a class="download" href="images/repair.PNG"
+												download="repair.png">Download</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<img alt="" src="images/delete.PNG" width="600px"> <a
+												href="images/delete.PNG" download="delete.png"> Download<br></a>
+												<img alt="" src="images/sreach.PNG" width="600px"> <a
+												href="images/sreach.PNG" download="sreach.png"> Download</a>
+												<button>
+													<a href="images/down/down.rar"
+														download="images/down/down.rar"> Download All file</a>
+												</button>
 											</li>
 											<li><br>
-												<h5>Implement</h5> <img id="logo" src="images/mylogo.gif"
-												with="154" height="74" alt="" title="" /></li>
+												<h3>Implement</h3>
+
+												<div class="create">
+													<h6>Create a student</h6>
+													<table>
+														<tr>
+															<td class="td1">Họ và Tên:</td>
+															<td class="frametable"><input type="text"
+																name="username" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Mã số sinh viên:</td>
+															<td class="frametable"><input type="text"
+																name="mssv" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Email:</td>
+															<td class="frametable"><input type="text"
+																name="email" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Số điện thoại</td>
+															<td class="frametable"><input type="text" name="sđt"
+																size="30"></td>
+														</tr>
+
+													</table>
+													<button class="button">Lưu</button>
+												</div>
+												<div class="repair">
+													<h6>Repair a student</h6>
+													<table>
+														<tr>
+															<td class="td1">Họ và Tên:</td>
+															<td class="frametable"><input type="text"
+																name="username" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Mã số sinh viên:</td>
+															<td class="frametable"><input type="text"
+																name="mssv" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Email:</td>
+															<td class="frametable"><input type="text"
+																name="email" size="30"></td>
+														</tr>
+														<tr>
+															<td class="td1">Số điện thoại</td>
+															<td class="frametable"><input type="text" name="sđt"
+																size="30"></td>
+														</tr>
+
+													</table>
+													<button class="button">Lưu</button>
+												</div>
+												<div class="delete">
+													<h6>Delete a student</h6>
+													<table>
+
+														<tr>
+															<td class="td1">Mã số sinh viên:</td>
+															<td class="frametable"><input type="text"
+																name="mssv" size="30"></td>
+														</tr>
+
+													</table>
+													<button class="button">Delete</button>
+												</div>
+												<div class="sreach">
+													<h6>Sreach a student</h6>
+													<tr>
+														<td class="td1">Sreach by MSSV:</td>
+														<td class="frametable"><input type="text"
+															name="sreach" size="70"></td>
+													</tr>
+													<tr>
+														<td class="td1">Sreach by Name:</td>
+														<td class="frametable"><input type="text"
+															name="sreach" size="70"></td>
+													</tr>
+													<button class="buttondif">Sreach</button>
+													<table border="tablesreach">
+														<tr>
+															<th>Stt</th>
+															<th>Họ tên</th>
+															<th>Mã số sinh viên</th>
+															<th>Email</th>
+															<th>Số điện thoại</th>
+														</tr>
+														<tr>
+															<td>1.</td>
+															<td>Trần Anh Đức</td>
+															<td>17130025</td>
+															<td>17130025@hcmuaf.edu.vn</td>
+															<td>0187558666</td>
+														</tr>
+														<tr>
+															<td>2.</td>
+															<td>Kiều Thị Thu Hằng</td>
+															<td>17130125</td>
+															<td>17130125@hcmuaf.edu.vn</td>
+															<td>0954874544</td>
+														</tr>
+														<tr>
+															<td>3.</td>
+															<td>Lê Văn A</td>
+															<td>17130225</td>
+															<td>17130225@hcmuaf.edu.vn</td>
+															<td>0755287588</td>
+														</tr>
+														<tr>
+															<td>4.</td>
+															<td>Trần Văn B</td>
+															<td>17130140</td>
+															<td>17130140@hcmuaf.edu.vn</td>
+															<td>0123684688</td>
+														</tr>
+
+													</table>
+												</div></li>
+
+
 										</ul>
 									</div>
 									<script type="text/javascript">
