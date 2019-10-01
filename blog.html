@@ -5,9 +5,10 @@
 <head>
 <title>Minimalistic Web Template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta charset="iso-8859-1" />
+<meta charset="UTF-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="Lab/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="Lab/bootstrap-4.3.1-dist/css/bootstrap.min.css">
 <!--[if IE 6]>
 		<link href="css/ie6.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
@@ -65,44 +66,59 @@
 										<button class="tablinks">Lab3</button>
 									</div>
 
-									<div id="Lab1" onclick="myfunction()" class="tabcontent">
-										<div class="tab hid" style="display:none">
-											<button class="tablinks1">Requirement</button>
-											<button class="tablinks1">Design</button>
-											<button class="tablinks1">Implement</button>
-										</div>
-										<div id="Requirement" class="tabcontent1">
-											<h3>HTML</h3>
-										</div>
-
-										<div id="Design" class="tabcontent1">
-											<h3>HTML</h3>
-										</div>
-
-										<div id="Implement" class="tabcontent1">
-											<h3>CSS</h3>
-										</div>
-										<script type="text/javascript">
-											Function myfunction(){
-											 document.getElementsByClassName("hid").style.display="block";
-												
-											}
-										</script>
-									</div>
-									<div id="Lab2" class="tabcontent">
-										<h3>HTML</h3>
-										<p>HTML là chữ viết tắt của cụm từ HyperText Markup
-											Language((Xem thêm tại http://vi.wikipedia.org/wiki/HTML))
-											(dịch là Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo
-											một trang web, trên một website có thể sẽ chứa nhiều trang và
-											mỗi trang được quy ra là một tài liệu HTML.</p>
-									</div>
-									<div id="Lab3" class="tabcontent">
-										<h3>CSS</h3>
-										<p>CSS là chữ viết tắt của Cascading Style Sheets, nó là
-											một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử
-											được tạo ra bởi các ngôn ngữ đánh dấu (ví dụ như HTML).</p>
-
+									<div id="Lab1" class="tabcontent">
+										<h3>Requirement</h3>
+										<ul class="article">
+											<li>
+												<h5>Yêu Cầu:</h5>
+												<p>
+													Chọn1 đối tượng bất kỳ trong thế giới thực, vídụ như <b>sinh
+														viên, môn học, giảng viên</b>,… để thiết kế trên phần mềm một
+													chức năng trên web để<b> thêm, sửa, xóa ,tìm kiếm</b> cho
+													đối tượng đó.
+												</p>
+											</li>
+											<li>
+												<p>Upload tất cả lên Azure/github trong menu Lab1 theo
+													thứ tự:</p>
+												<ol>
+													<li><p>
+															Tab <b>Yêu cầu</b>: copy lại nội dung của phần 1 vào đây
+															(trình bày cho đẹp)
+														</p></li>
+													<li><p>
+															Tab <b>Thiết kế</b>: để link tới các file sau đây:
+														<ol>
+															<li>Thiết kế trên giấy (chụp lại ảnh)</li>
+															<li>Thiết kế trên phần mềm thiết kế</li>
+														</ol></li>
+													<li><p>
+															Tab <b>Hiện thực</b>: chuyển tất cả thiết kế ở trên ở
+															trên sang html
+														</p></li>
+												</ol>
+											</li>
+											<li>
+												<h3 class="design">Design</h3>
+												<h5>
+													1. Design with paper:<br>
+												</h5>
+												<h5>
+													<br> 2. Design with Figma:<br>
+												</h5> <img alt="" src="images/Capture.PNG" width="600px">
+												&nbsp;&nbsp;&nbsp;&nbsp; <a class="download"
+												href="images/Capture.PNG" download="Capture"> <br>
+													Download <br>
+											</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt=""
+												src="images/Project.PNG" width="600px"> <br> <a
+												class="download" href="images/Project.PNG"
+												download="Project.png">Download</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<img alt="" src="images/About.PNG" width="600px"> <a
+												href="images/About.PNG" download="About.png"> Download<br></a>
+											</li>
+											<li><br>
+												<h5>Implement</h5></li>
+										</ul>
 									</div>
 									<script type="text/javascript">
 										var buttons = document
@@ -134,15 +150,14 @@
 										showContent('PHP');
 									</script>
 								</div>
-							</div>
 
-							<!--  <hr width="100%" />-->
+								<!--  <hr width="100%" />-->
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	<div class="shadow"></div>
 	</div>
