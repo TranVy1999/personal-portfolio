@@ -161,7 +161,7 @@ body {
 #page .header .footer .body #content .content img {
 	border: 0;
 }
-
+ *******
 #page .header .footer .body #content .content {
 	width: 726px;
 	height: 6005px;
@@ -170,6 +170,51 @@ body {
 	float: left;
 	padding-top: 20px;
 	overflow: hidden;
+}
+#page .header .footer .body #content .content img {
+    width: 650px;
+    border: 0;
+}
+#page .header .footer .body #content .content .tabcontent .menubutton {
+	padding: 20px 50px 5px 0px;
+	text-align: right;
+}
+
+#page .header .footer .body #content .content .tabcontent .thoikhoabieu
+	{
+	padding: 20px;
+	text-align: center;
+}
+
+#page .header .footer .body #content .content .tabcontent .timeofsemester
+	{
+	padding: 5px;
+	text-align: center;
+}
+
+#page .header .footer .body #content .content .tabcontent .information {
+	padding: 5px;
+	text-align: center;
+}
+
+#page .header .footer .body #content .content .tabcontent  span {
+	color: green;
+}
+
+#page .header .footer .body #content .content .tabcontent .table .dkmh {
+	border: 2px solid medium;
+	border-color: black;
+}
+
+#page .header .footer .body #content .content .tabcontent .table .dkmh tr
+	{
+	border: 2px solid medium;
+	text-align: center;
+	color: white;
+}
+
+#page .header .footer .body #content .content .tabcontent .dkmh .note {
+	background: blue;
 }
 /* 
 #page .header .footer .body #content .content .tabcontent .create {
@@ -346,6 +391,7 @@ body {
 /** Start of Lab Style **/
 #page .header .footer .body #content .content .lab {
 	color: white;
+	background-image: url('../images/bg-inner-page.jpg');
 }
 /** end of Lab style **/
 
