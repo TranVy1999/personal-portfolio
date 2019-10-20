@@ -17,8 +17,7 @@ body {
 }
 
 #page {
-	width: 950px;
-	margin: 0 auto;
+	width: 1000px;
 	padding: 0 5px;
 }
 
@@ -35,7 +34,7 @@ body {
 
 #page .header .footer .body {
 	background-image: url('../images/bg-page.jpg');
-	width: 950px;
+	width: 1000px;
 	overflow: hidden;
 }
 
@@ -152,7 +151,7 @@ body {
 
 /** Start of Content Style **/
 #page .header .footer .body #content {
-	width: 739px;
+	width: 730px;
 	float: left;
 	padding-bottom: 50px;
 	overflow: hidden;
@@ -161,7 +160,8 @@ body {
 #page .header .footer .body #content .content img {
 	border: 0;
 }
- *******
+
+*******
 #page .header .footer .body #content .content {
 	width: 726px;
 	height: 6005px;
@@ -171,10 +171,12 @@ body {
 	padding-top: 20px;
 	overflow: hidden;
 }
+
 #page .header .footer .body #content .content img {
-    width: 650px;
-    border: 0;
+	width: 650px;
+	border: 0;
 }
+
 #page .header .footer .body #content .content .tabcontent .menubutton {
 	padding: 20px 50px 5px 0px;
 	text-align: right;
@@ -391,6 +393,7 @@ body {
 /** Start of Lab Style **/
 #page .header .footer .body #content .content .lab {
 	color: white;
+	background-size: contain;
 	background-image: url('../images/bg-inner-page.jpg');
 }
 /** end of Lab style **/
