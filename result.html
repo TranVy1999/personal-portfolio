@@ -50,13 +50,11 @@
 							<div class="content">
 								<div class="lab">
 									<div class="tab">
-										<button class="tablinks active">Lab1</button>
+										<button class="tablinks">Lab1</button>
 										<button class="tablinks">Lab2</button>
 										<button class="tablinks">Lab3</button>
 										<button class="tablinks">Lab4</button>
-										<button class="tablinks">
-											<a href="result.html">Lab5</a>
-										</button>
+										<button class="tablinks active">Lab5</button>
 									</div>
 
 									<div id="Lab1" class="tabcontent">
@@ -808,35 +806,7 @@
 												</div>
 											</div>
 										</div>
-										<script type="text/javascript">
-											var buttons = document
-													.getElementsByClassName('tablinks');
-											var contents = document
-													.getElementsByClassName('tabcontent');
-											function showContent(id) {
-												for (var i = 0; i < contents.length; i++) {
-													contents[i].style.display = 'none';
-												}
-												var content = document
-														.getElementById(id);
-												content.style.display = 'block';
-											}
-											for (var i = 0; i < buttons.length; i++) {
-												buttons[i]
-														.addEventListener(
-																"click",
-																function() {
-																	var id = this.textContent;
-																	for (var i = 0; i < buttons.length; i++) {
-																		buttons[i].classList
-																				.remove("active");
-																	}
-																	this.className += " active";
-																	showContent(id);
-																});
-											}
-											showContent('PHP');
-										</script>
+
 									</div>
 									<div id="Lab5" class="tabcontent">
 										<h4 style="text-align: center;">NHỮNG THÀNH QUẢ ĐẠT ĐƯỢC
@@ -871,5 +841,28 @@
 			<div class="shadow"></div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var buttons = document.getElementsByClassName('tablinks');
+		var contents = document.getElementsByClassName('tabcontent');
+		function showContent(id) {
+			for (var i = 0; i < contents.length; i++) {
+				contents[i].style.display = 'none';
+			}
+			var content = document.getElementById(id);
+			content.style.display = 'block';
+		}
+		for (var i = 0; i < buttons.length; i++) {
+			buttons[i].addEventListener("click", function() {
+				var id = this.textContent;
+				for (var i = 0; i < buttons.length; i++) {
+
+					buttons[i].classList.remove("active");
+				}
+				this.className += " active";
+				showContent(id);
+			});
+		}
+		showContent('PHP');
+	</script>
 </body>
 </html>
